@@ -9,7 +9,7 @@ import regex as re
 import time 
 import pandas as pd
 
-api_key = st.text_input("enter openai api key")
+api_key = st.text_input("enter openai api key", type="password")
 openai.api_key = api_key
 st.title("Reddit bot v1.0")
 
